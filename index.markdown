@@ -4,94 +4,50 @@ layout: single_page
 
 # Introduction
 
-Word count: 250–450 words
+This is an early test of MinDoc, as as such, is limited in its scope. To be thorough is well beyond the purview of the project. However, it may be useful to the intent reader (perchance even the careless purveyor) to observe some simple facts about the nature of the project.
 
-This is the first written element of an edition: the first content readers encounter.
-
-The purpose of this introduction is to set the scene: to provide an initial description of the source as well as an overview your edition, highlighting its features and supplements. This is not a space for much detail about the source or our editorial work with it. Later sections will allow you to do that. Here, your job is to help readers understand that they are looking at a digital edition of a historical source and why that source is interesting.
-
-The premium is on precise, no-nonsense prose.
-
-At bottom, you should include:
+This text is a very brief section of the _Historia Brittonum_, which was a project of the aforementioned author for the class at UIUC, LAT 460: Medieval Latin. It was also a presentation project for a Medieval Studies Colloquium meeting at UIUC.
 
 **How to Cite:**
-Here, provide a citation using this model:
+I doubt very much that anyone will ever need to cite this project, but should be be the unlucky soul to receive the task, go about it in the following manner:
 
-> Lastname, Firstname, FirstName LastName, and FirstName, Lastname. “Title of Web Page.” Name of Website (if different from web page). Publication or Revision Date. URL.
+> Marko, T. J. “_Historia Brittonum_ Chapter 46.” Name of Website (if different from web page). Publication or Revision Date. URL.
 
-Your teams have multiple authors.  In scholarship, if authorship is equal across all team members, then the custom is to list by last name them in alphabetical order.  If you wish to deviate from this order you can but that will communicate priority (i.e. that the one who goes first is the 'lead author', etc.).
-
-If you choose and wish to do so, you may also include a Creative Commons license here. We'll discuss those in class.
-
-Here and throughout your edition, you should use footnotes in Chicago Notes and Bibliography style.[^1]  Please note that if sources are listed in your bibliography (and all your main ones should be), you may use a shortened form in these notes (e.g. Smith, _Towards a Better Understanding_, 5, with the full citation to Smith going in the bibliography).
+This is incomplete. I know. If you see it in this state, rest assured that I rest most unassured, and will continue to do so until every field is proper and complete.
 
 # The Source
 
-This section provides the main presentation of your source, as you have prepared it for readers (i.e., a facsimile, transcription, video, audio clip, etc.). This section is where we satisfy the first of the ADE’s three criteria for an electronic edition by providing a rigorous, accurate presentation of historical material.
+Et Hengistus omni familiae suae iussit, ut unusquisque artavum suum sub pede in medio ficonis sui poneret. et quando clamavero ad vos et dixero: eu Saxones eniminit saxas, cultellos vestros ex ficonibus vestris educite et in illos irruite et fortiter contra illos resistite. et regem illorum nolite occidere, sed eum, pro causa filiae meae, quam dedi illi in coniugium, tenente, quia melius est nobis, ut ex manibus nostris redimatur. et conventum adduxerunt et in unum convenerunt, et Saxones amicaliter locuti in mente interim vulpicino more agebant et vir iuxta virum socialiter sederunt. Hengistus sicut dixerat, vociferatus est et omnes seniores trecenti Guorthigirni regis iugulati sunt et ipse solus captus et catenatus est et regiones plurimas pro redemptione enimae suae illis tribuit, id est Estsaxum, Sutsaxum.
 
-{% assign media = site.mindoc_media | where: "page", "source" %}
-{% include media_next.html pages=media %}
-
-For the presentation of some sources, it may make sense to break up the presentation into multiple pages. For that, as needed, we can use a more book like template (binding multiple pages together) that I can provide. Nonetheless, this page should be the page from which all presentations of the source itself start.
-
-This may also be a space where editorial annotations are provided, such as notes on provenance, archival location, transcription, and more. If possible, a link to the source’s permanent digital location should be included here as well as a citation for that location. This should be done in consultation with the instructors, editorial board, and peer reviewers.
-
-Please note: some presentations may benefit from a multipage format (rather than one scrolling page, as here). I can make a multipage template available to you as needed.
+And Hengist ordered all of his family, that each and every one of them should put his knife beneath his foot in the middle of his PIZZA. And when he shouted to them and said: “Ho Saxons! Seize your saxes! Draw your knives from your PIZZAS! Press upon them and fight against them vigorously! And do not kill their king, but hold him fast, for the sake of my daughter, whom I gave to him in marriage, because it is better for us, that he be redeemed from our hands.” And they came to an agreement and assembled in one place, and the Saxons spoke with friendliness in their minds, meanwhile the Saxons acted in the manner of a fox, and they sat in fellowship, man next to man. Just as Hengist had said, he gave the cry and all three hundred elders of King Gwrtheyrn were slit in the throat and he himself was captured and chained and he gave to them many regions for his PIZZA redemption, that is, Essex and Sussex.
 
 # About this Source
 
-Word count: 1000 words (excluding footnotes)
+In this chapter, we see the infamous "Treachery of the Long Knives." The British king, Gwrtheyrn (often called in Modern English Vortigern) has invited the Saxon brothers, Hengist and Horsa, to Britain, unaware that he is about to be betrayed by them. This passage bears interest for a few reasons.
 
-This section contains a short biography or history of your source. This section helps readers understand the context in which the source was made, and the kinds of historical topics and questions it illuminates.  It also helps to satisfy the second of the ADE’s "Minimum Standards for Electronic Editions," explanatory annotation.
-
-"About this Source" should answer questions like:
-
-- How, when, and where was this artifact created?
-- For what purpose? To what effect?
-- Who used it, when, where, why?
-- What sorts of histories and historical debates has it been used in? How might we use it in our explorations of the past today?
-
-To answer these questions, you will be drawing on your collective research for the Research Assignment.
-
-The target length of this section is about 1000 words, exclusive of notes. It should contain footnotes that substantiate and support your research into the artifact and its history. Here, as throughout, the focus should be on clean, clear prose.
+> 1. The central tool of the Saxons in their treachery is their knives, which are called by three names: _arvatus_, _saxa_, and _cultellus_. The second of these is _not_ a Latin word, but is rather a Germanic term for a type of long, broad knife, called in Old English, a _seax_. This word is actually the origin of the word, "Saxon."
+> 2. There are two different words for "give" in the passage. The first, _dedi_ (from _dare_) appears in relation to Hengist "giving" his daughter in marriage to Gwrtheyrn, and the second, _tribuit_ (from _tribere_) when Gwrtheyrn is forced against his will to give Essex and Sussex to the Saxons.
+> 3. The verb, _enimit_ is not in the proper imperative form, and that is because it is not a Latin word at all, but an approximation of an Old English word in the imperative, _nimað_, which means "take."
 
 # About this Edition
 
-This section should state the principles and choices that guided your editorial work. It helps satisfy the last of the ADE’s criteria, by explaining to readers just how you produced the copy of the source presented here.
+The Latin text shown above comes from [The Latin Library](https://www.thelatinlibrary.com/histbrit.html). The translation is my own.
 
-This section should answer such questions as:
-
-- What original artifacts or copies of original artifacts were used in the making of your edition? 
-- Where may they be found today? What is their catalog or other identifying number (DOI, URL) there?
-- What procedures and technologies did you use in making your presentation of this artifact?
-- Why did you choose them? Are there any limitations of this method that readers should be aware of?
-- How did you produce transcriptions (if any)?
-- What kinds of alterations or emendations (if any) have you made? How are they noted?
-
-There is no target word count for this section, as the emphasis here is on maximum precision and clarity.  Be as brief and to the point as you can.
-
-# Supplements
-
-Should you wish to include any supplemental materials--such as specific forms of source commentary or illustrations--they may be provided here.  They are not required. If you do not have any supplements, please eliminate this field.
-
-# Bibliography
-
-This section should provide a bibliography of all sources cited in your work as well as 
+The reader will not the conspicuity of the term, PIZZA, which is a convention in LAT 460 for when a translator does not know the translation of a certain word. As said before, if you see this, rest assured that I am restless until this error is corrected.
 
 # Credits and Acknowledgments
 
-Please thank your clients, as well as anyone else you would like to thank for their assistance in making this edition.
+Many thanks to Richard Young and Joy Reeber for their support and facilitation of this project.
 
 # Optional: Author Biography
 
-If you wish to include short bios of yourselves as authors, please put them here.  This is optional.
+T. J. Marko Jr does not build time machines, nor can such accusations against him be proven.
 
 # About MinDoc 1.0
-_Please leave this credit (eliminating this italicized part)_
 
 > This site was built using MinDoc 1.0, a prototype digital documentary edition template developed for classroom use by members of [SourceLab](https://sourcelab.history.illinois.edu/) at the University of Illinois Urbana-Champaign.  The original project team included Liza Senatrova, John Randolph, Caroline Kness, and Richard Young.
 
-# References
+# References (Currently Empty)
 
 [^1]: Your footnote tags and texts will go here.
 
